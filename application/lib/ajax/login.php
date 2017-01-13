@@ -51,7 +51,7 @@ class Login_Controller extends Controller
 		}
 		else // logowanie nieudane
 		{
-			$this->app->get_page()->set_message(MSG_ERROR, 'Login email or password are not correct‚ account blocked.');
+			$this->app->get_page()->set_message(MSG_ERROR, 'Login email or password are not correctâ€š account blocked.');
 
 			header('Location: index.php?route=login');
 			exit;
