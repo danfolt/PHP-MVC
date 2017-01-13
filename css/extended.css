@@ -1,0 +1,61 @@
+/*
+ *  Personal style - template EXTENDED
+ */
+
+
+
+ul.categories { margin: 0px -5px 0px 10px; padding: 0px; }
+ul.categories a{ color:#13375e; }
+ul.categories > li { list-style-image: url('http://mvc.net.pl/img/pointers/list_item.png'); }
+ul.categories > li:hover { color: #c00; }
+ul.categories > li.category-selected { list-style-image: url('http://mvc.net.pl/img/pointers/list_item_active.png'); }
+ul.categories > li.category-selected > a { color: #000000; }
+
+div.page-content > div.row > div.categories { margin-top: -10px; border-right: 1px dotted #aaa; }
+div.page-content > div.row > div.content { margin-top: -25px; }
+
+div.article {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    background:#FFF2C9;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 15px 0;
+ }
+div.article > div.article-title { background:#FFFFFF; padding: 5px 0px 2px 10px; color: #555; }
+div.article > div.article-title a{ color: #13375e; }
+div.article > div.article-timestamp { 
+    border-bottom: 1px solid #ffffff;
+    color: #1b1b1b;
+    font-size: 0.85em; 
+}
+div.article > div.article-timestamp > img { padding: 0px 2px 0px 10px; margin: 5px 0px 5px 0px; }
+div.article > div.article-skip { padding: 5px 10px 25px 10px; border-bottom: 1px dotted #aaa; font-size: 0.9em; }
+div.article > div.article-skip > span.skip-left { float: left; }
+div.article > div.article-skip > span.skip-right { float: right; }
+div.article > div.article-white { 
+    background: #ffffff none repeat scroll 0 0;
+    min-height: 80px;
+    margin: 0 1px; 
+    padding: 10px; 
+    }
+div.article > div.article-content { background: #fefde1 none repeat scroll 0 0; color: #222222; padding: 10px; }
+div.article > div.article-content > p, ul, ol { text-align: left; }
+div.article > div.article-content > p > img { padding: 10px 0px 10px 0px; }
+div.article > div.article-content > h1, h2, h3, h4, h5, h6 { text-align: left; }
+div.article > div.article-content > pre { color: #0a0; }
+div.article > div.article-continue { margin-right: 10px; text-align: right; font-size: 0.9em; }
+div.article > div.article-continue > a { color: #000000; }
+
+span.distance { margin: 15px; }
+span.st_twitter { margin: 0px; padding: 0px; }
+span.st_googleplus { margin: 0px; padding: 0px; }
+span.st_facebook { margin: 0px; padding: 0px; }
+span.st_linkedin { margin: 0px; padding: 0px; }
+
+p.sup { border-top: 1px solid #ddd; font-size: 0.8em; padding-top: 10px; }

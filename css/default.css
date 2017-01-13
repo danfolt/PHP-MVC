@@ -1,0 +1,151 @@
+/*
+ *  Własne style dla strony - szablon DEFAULT
+ */
+
+body { margin: 0px; padding: 0px; background-color: #FFFFFF; }
+a { text-decoration: none; color: #BABABA; font-weight:700; }
+th { text-align: center; padding: 7px 3px 7px 3px; font-size: 11px; }
+td { font-size: 12px; }
+
+div.center { float: none; margin: 0 auto; }
+
+a.logo { text-decoration: none; }
+a.logo:hover { text-decoration: none; }
+a.logo > span.company { padding-left: 10px; padding-right: 10px; font: bold 20px/20px Arial; vertical-align: middle; color: #ffffff; }
+
+div.page-header { margin: 0px; padding: 5px 0px; background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #696969 0%, #3f3f3f 100%) repeat scroll 0 0; border-bottom: 1px solid #ccc; }
+div.page-path { background-color: #f6f6f6; border-bottom: 1px solid #ccc; border-top: 1px solid #fff; }
+div.page-content { margin: 30px 0 0;   }
+div.page-footer { width: 100%; text-align: center; padding: 10px; border-top: 1px solid #fff; border-bottom: 1px solid #ccc; color: #999; background-color: #eee; font-size: 0.8em; }
+div.page-footer > div.FooterCopyright { padding-top: 5px; }
+div.page-footer > div.FooterCopyright > a { color: #999; }
+div.page-footer > a { margin: 10px; }
+
+div.page-header > a > img.img-logo { width: 120px; height:30px; margin: 0 20px 0 30px; }
+div.page-header > form.navbar-form.navbar-right { margin: 0 10px; }
+div.page-header > div.navbar-text.navbar-right { font-size: 12px; margin: 3px 10px 0;text-transform: uppercase; }
+div.page-header > div.navbar-text.navbar-right > a.navbar-link > img { margin: 0px 10px 0px 0px; }
+
+div.page-path > ol.breadcrumb { padding: 20px 10px 0px 30px; }
+div.page-path > div.navbar-text.navbar-right { padding: 5px 15px 5px 2px; }
+
+div.panel-heading { padding: 20px; }
+
+nav.navbar.navbar-default { background: #e06f98 none repeat scroll 0 0; margin: 0px; }
+span.FormIcon { padding-right: 20px; }
+span.FormTitle { padding: 0px; margin: 0px; font-size: medium; font-weight: bold; color: #333333; }
+tr.HeaderRow { background-color: #E06F98; }
+tr.HeaderRow a{ color: #222; }
+span.FormSearch { text-align: right; margin: 0px; padding: 0px; }
+span.FormSearch > form.navbar-form { float: right; margin: 0px; }
+td.FormSearchBar { text-align: center; vertical-align: middle; font-size: small; }
+td.FormSearchBar > form { margin: 5px 0px 5px 0px; }
+span.FormSearchCaption { color: #999; }
+span.FormSearchValue { color: #c00; }
+span.FormSearchClose > img { vertical-align: middle; margin-left: 10px; }
+span.FormSearchClose > img:hover { cursor: pointer; }
+span.FormDates { text-align: right; margin: 0px; padding: 0px; }
+span.FormDates > form.navbar-form { float: right; margin: 0px;padding: 25px 0 5px; }
+
+table.NaviBar { text-align: center; padding: 0px; }
+td.NaviPointersLeft { text-align: right; vertical-align: middle; width: 20%; }
+td.NaviPointers { vertical-align: middle; text-align: center; width: 60%; }
+td.NaviPointersRight { text-align: left; vertical-align: middle; width: 20%; }
+td.NaviPointersCount { font-size: small; padding: 0px; vertical-align: middle; text-align: center; }
+td.NaviPointers > ul.pagination { margin: 5px; }
+a.PagePointer { }
+a.PagePointerCurrent { }
+a.PagePointerDisabled { }
+a.PagePointer:hover { }
+a.PagePointerCurrent:hover { }
+a.PagePointerDisabled:hover { }
+form.FormGoToPage { float: left; }
+form.FormShowRows { float: right; }
+
+div#goto-container { padding: 0px; }
+div#goto-page { width: 100px; }
+input#page-number { text-align: center; }
+select#page_rows { width: 80px; }
+
+span.options-item { float: right; padding: 0px 15px 0px 15px; }
+span.options-item > a > img { padding: 0px 10px 0px 0px; }
+span.options-item a{ color: #333333; }
+
+nav > div > ul.navbar-nav > li { 
+    background: transparent;
+    border-right: 1px solid #CDCDCC;
+    float: none; 
+}
+nav > div > ul.navbar-nav > li.-public a{ 
+    background: #e06f98 none repeat scroll 0 0;
+    color: #ffffff;
+    float: none; 
+}
+
+nav > div > ul.navbar-nav >  li.nav-selected-private a{ 
+    background: #222222 none repeat scroll 0 0;
+    color:#000000;  
+}
+nav > div > ul.navbar-nav > li.nav-selected-public a{ 
+    background: #222222 none repeat scroll 0 0;
+    float: none; 
+}
+
+nav > div > ul.navbar-nav >  li.-private a{ 
+    background: red none repeat scroll 0 0;
+    color:#FFFFFF;  
+}
+
+
+nav > div > ul.navbar-nav > li:hover { background-color: #e6e6e6; }
+nav > div > ul.navbar-nav > li.public > .nav-selected > a{ background-color: #333333; }
+nav > div > ul.navbar-nav > li.nav-selected > a { color: #ffffff; }
+
+
+
+ul.categories { margin: 0px 0px 0px 10px; padding: 0px; }
+ul.categories > li { list-style-image: url('http://trovatua.casa/img/pointers/list_item.png'); }
+ul.categories > li:hover { color: #c00; }
+ul.categories > li.category-selected { list-style-image: url('http://trovatua.casa/img/pointers/list_item_active.png'); }
+ul.categories > li.category-selected > a { color: #ff300a; }
+
+div.page-content > div.row > div.categories { margin-top: -10px; border-right: 1px dotted #aaa; }
+div.page-content > div.row > div.content { margin-top: -25px; }
+
+tr.DataRowBright { background: #FFFDE1; }
+td.DataCell { color: #444; }
+td.DataCell a{ color: #13375e; }
+td.DataLock { color: #d00; }
+td.ActionCell { }
+td.ActionCell > a { }
+td.ActionCell > a > img.ActionIcon { margin: 3px; }
+td.DataCellMsg { color: #c00; text-align: center; font-weight: bold; }
+
+div.panel-heading > h3.panel-title > img { padding-right: 20px; }
+div.panel-heading > h3.panel-title { font-weight: bold; color: #333333; }
+div.panel-footer > button { margin: 5px; }
+
+td.MsgIcon { padding: 0px 10px 0px 0px; vertical-align: middle; }
+td.MsgMessage { padding: 0px 5px 0px 10px; vertical-align: middle; }
+td.MsgButtons { padding: 0px 4px 0px 4px; }
+
+div.GroupName { font-size: small; text-align: center; color: #ccc; margin: 10px; border-bottom: 1px dotted #ddd; }
+div.GroupElements { text-align: center; }
+td.GroupElement { padding: 10px 0px 10px 0px; margin: 10px; width: 300px; }
+td.GroupElement > a > p { margin: 0px; padding: 0px; font-size: small; }
+td.GroupElement > a { color: #777; }
+td.GroupElement > a:hover  { color: #c00; text-decoration: none; }
+
+td.ViewKey { color: #777; padding-right: 10px; width: 20%; border-bottom: 1px dotted #eee; }
+td.ViewData { color: #333; padding-left: 10px; width: 80%; border-bottom: 1px dotted #eee; }
+
+tr.install > td > p { line-height: 20px; margin: 10px; }
+tr.install > td > ol > li { line-height: 20px; margin: 10px; }
+
+img.ListImage { width: 70px; height: 50px; padding: 1px; border: 1px solid #ddd; }
+span.gallery_item > a > img { margin: 5px; padding: 1px; border: 1px solid #ccc; width: 100px; height: 100px; }
+span.gallery_item > a > img:hover { cursor: pointer; border: 1px solid #00f; }
+
+p.warning { color: red; }
+
+div.action-bar { text-align: right; }
