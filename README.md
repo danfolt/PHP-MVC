@@ -1,5 +1,6 @@
 # PHP-MVC
-iNightclub - PHP MVC OOP based on https://github.com/andrzuk/FineCMS amazing script </br>
+iNightclub - PHP MVC OOP script. Copyright goes on https://github.com/andrzuk/FineCMS </br>
+Script was found on github, tried to contact the owner for permission to use it on Facebook, no response. </br>
 # Currently working on adding a posts/pages comment system, FRONTEND pagination for category post pages. </br>
 
 Comment system should be built on 3 new files: </br>
